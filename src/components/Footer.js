@@ -46,10 +46,7 @@ function Footer() {
               Contact Info
             </Typography>
             <Typography variant="body2" color="text.secondary" paragraph>
-              Email: 2310080007@klh.edu.in, 2310080084@klh.edu.in
-            </Typography>
-            <Typography variant="body2" color="text.secondary" paragraph>
-              Phone: 9892350109, 9392978350
+              Email: 2310080007@klh.edu.in
             </Typography>
             <Typography variant="body2" color="text.secondary" paragraph>
               Mentor: Dr. Sudharshan Babu Pandava
