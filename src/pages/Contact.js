@@ -135,14 +135,6 @@ function Contact() {
                     <EmailIcon sx={{ color: 'primary.main', mr: 2 }} />
                     <Typography>2310080007@klh.edu.in</Typography>
                   </Box>
-                  <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
-                    <EmailIcon sx={{ color: 'primary.main', mr: 2 }} />
-                    <Typography>2310080084@klh.edu.in</Typography>
-                  </Box>
-                  <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
-                    <PhoneIcon sx={{ color: 'primary.main', mr: 2 }} />
-                    <Typography>9392978350 <br /> 9892350109</Typography>
-                  </Box>
                   <Box sx={{ display: 'flex', alignItems: 'center' }}>
                     <LocationOnIcon sx={{ color: 'primary.main', mr: 2 }} />
                     <Typography>
