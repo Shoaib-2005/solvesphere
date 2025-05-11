@@ -8,6 +8,11 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Messages from './pages/Messages';
+import SimplexMethod from './pages/SimplexMethod';
+import GraphicalMethod from './pages/GraphicalMethod';
+import TransportationMethod from './pages/TransportationMethod';
+import LinearProgramming from './pages/LinearProgramming';
+import NonLinearProgramming from './pages/NonLinearProgramming';
 
 const theme = createTheme({
   palette: {
@@ -39,7 +44,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <div className="App">
+      <>
         <Navbar />
         <main>
           <Routes>
@@ -47,10 +52,15 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/messages" element={<Messages />} />
+            <Route path="/simplex-method" element={<SimplexMethod />} />
+            <Route path="/graphical-method" element={<GraphicalMethod />} />
+            <Route path="/transportation-method" element={<TransportationMethod />} />
+            <Route path="/linear-programming" element={<LinearProgramming />} />
+            <Route path="/non-linear-programming" element={<NonLinearProgramming />} />
           </Routes>
         </main>
         <Footer />
-      </div>
+      </>
     </ThemeProvider>
   );
 }

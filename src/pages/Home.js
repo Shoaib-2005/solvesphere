@@ -83,17 +83,33 @@ function Home() {
                   justifyContent: 'center',
                   borderRadius: 2,
                   overflow: 'hidden',
+                  background: 'linear-gradient(45deg, #2563eb 30%, #10b981 90%)',
+                  position: 'relative',
                 }}
               >
                 <img
                   src={logo}
                   alt="Solvesphere Logo"
                   style={{
-                    width: '100%',
-                    maxWidth: '400px',
+                    width: '80%',
+                    maxWidth: '300px',
                     height: 'auto',
                     objectFit: 'contain',
                     filter: 'drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.2))',
+                    position: 'relative',
+                    zIndex: 2,
+                  }}
+                />
+                <Box
+                  sx={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    background: 'linear-gradient(45deg, #2563eb 30%, #10b981 90%)',
+                    opacity: 0.8,
+                    zIndex: 1,
                   }}
                 />
               </MotionBox>
